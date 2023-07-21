@@ -1,0 +1,79 @@
+/*
+Dark pink = #BE6A7B
+light pink = #DAA3AF
+creame = #E2D2B7
+mocha = #7F7163
+black = #0F0808
+*/
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #DAA3AF;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+}
+
+.loading {
+}
+
+.cat {
+    height: 5rem;
+    width: 5rem;
+}
+
+
+.joke-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 2rem;
+}
+
+.button-container {
+    text-align: center;
+    padding: 10px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: #E2D2B7;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    border: 5px solid #BE6A7B;
+    box-shadow: -10px 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: -5px 2px;
+    transform: translateY(4px);
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+}
